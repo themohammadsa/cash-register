@@ -1,0 +1,55 @@
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #274c77;
+}
+
+p {
+  margin: 1rem 1rem;
+  text-align: left;
+}
+
+#instructions {
+  border-radius: 1rem;
+  padding: 0.1rem;
+  box-shadow: 4px 4px 4px #dbeafe, -4px -4px 4px #dbeafe;
+  margin: 1rem 2rem;
+}
+section {
+  background-color: #eff6ff;
+  box-shadow: 5px 5px 5px #dbeafe, -5px -5px 5px #dbeafe;
+  border-radius: 50px;
+  margin: auto;
+  max-width: 30rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.8rem 2rem;
+  margin: 1rem 1.5rem;
+  background-color: #dbeafe;
+  border-radius: 1rem;
+  border: 2px solid #add7f6;
+  box-shadow: 2px 2px 2px #dbeafe, -2px -2px 2px #dbeafe;
+}
+
+::placeholder {
+  color: black;
+  opacity: 40%;
+  text-align: center;
+}
+#inputCash {
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #bfdbfe;
+  border: 2px solid #add7f6;
+  box-shadow: 5px 5px 5px #dbeafe, -5px -5px 5px #dbeafe;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
