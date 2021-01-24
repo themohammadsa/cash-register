@@ -1,6 +1,6 @@
 # Getting Started
 
-This is a web-app built with ReactJS, that can be used by the cash registerer. 
+This is a web-app built with ReactJS, that can be used by the cash registerar. 
 
 ---
 
