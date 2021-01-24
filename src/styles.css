@@ -39,6 +39,7 @@ input {
   color: black;
   opacity: 40%;
   text-align: center;
+  font-size: 1.1rem;
 }
 #inputCash {
   margin-bottom: 2rem;
