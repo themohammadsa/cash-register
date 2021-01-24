@@ -1,56 +1,138 @@
-body {
-  font-family: "Raleway", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap");
+
+.App {
+  font-family: "Hind", sans-serif;
   text-align: center;
-  padding: 3rem 1rem;
-  color: #274c77;
 }
 
-p {
-  margin: 1rem 1rem;
-  text-align: left;
+body {
+  background-color: #f4f3ff;
+  padding: 4rem 0rem;
+  margin: 0rem;
 }
 
-#instructions {
-  border-radius: 1rem;
-  padding: 0.1rem;
-  box-shadow: 4px 4px 4px #dbeafe, -4px -4px 4px #dbeafe;
-  margin: 1rem 2rem;
-}
-section {
-  background-color: #eff6ff;
-  box-shadow: 5px 5px 5px #dbeafe, -5px -5px 5px #dbeafe;
-  border-radius: 50px;
+.box {
+  background-color: rgba(255, 255, 255, 1);
   margin: auto;
   max-width: 30rem;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  padding: 0rem 0rem;
+  border-radius: 10px;
+  box-shadow: rgba(67, 103, 139, 0.2) 0px 8px 24px;
+  padding-bottom: 0.1px;
 }
 
-input {
-  padding: 0.8rem 2rem;
-  margin: 1rem 1.5rem;
-  background-color: #dbeafe;
-  border-radius: 1rem;
-  border: 2px solid #add7f6;
-  box-shadow: 2px 2px 2px #dbeafe, -2px -2px 2px #dbeafe;
+header {
+  background-color: #3b70ff;
+  color: white;
+  margin: auto;
+  padding: 0.1rem 0.5rem;
+  max-width: 30rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(59, 112, 255, 0.12) 0px 3px 3px,
+    rgba(59, 112, 255, 0.24) 0px 1px 5px;
 }
 
-::placeholder {
-  color: black;
-  opacity: 40%;
+footer {
+  margin: 2rem;
+}
+
+.input-box {
+  color: blue;
+  border-radius: 7px;
+  width: 35%;
+  height: 2rem;
   text-align: center;
+  margin: 1rem;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+h4 {
   font-size: 1.1rem;
 }
-#inputCash {
-  margin-bottom: 2rem;
+@media (max-width: 450px) {
+  h4 {
+    max-width: 40%;
+    font-size: 0.9rem;
+  }
+  .data {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .box {
+    width: 93%;
+  }
+}
+.data {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button {
-  background-color: #bfdbfe;
-  border: 2px solid #add7f6;
-  box-shadow: 5px 5px 5px #dbeafe, -5px -5px 5px #dbeafe;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
+  background-color: #3b70ff;
+  color: white;
+  padding: 0.7rem 1.7rem;
+  text-align: center;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  margin: 1rem;
+  border-radius: 4px;
+  margin-top: 0.2rem;
+  box-shadow: rgba(59, 112, 255, 0.35) 0px 2px 8px 0px;
   margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: white;
+  color: #3b70ff;
+  padding: 0.65rem 1.4rem;
+  text-align: center;
+  border: #3b70ff 1px solid;
+  font-family: "Hind", sans-serif;
+  margin: 1rem;
+  border-radius: 4px;
+  margin-top: 0.2rem;
+  box-shadow: rgba(59, 112, 255, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 1rem;
+}
+.gif {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 1.2rem;
+}
+
+#h1 {
+  color: #3b70ff;
+  margin-bottom: 5rem;
+  padding: 0rem 0.5rem;
+}
+
+.icon {
+  width: 1.5rem;
+  padding: 0.4rem;
+}
+
+#text-style {
+  color: black;
+}
+
+.cookies {
+  padding: 0.5rem rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3b70ff;
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
 }
